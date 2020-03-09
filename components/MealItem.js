@@ -34,7 +34,8 @@ const styles = StyleSheet.create({
         width: '100%',
         backgroundColor : '#f5f5f5',
         borderRadius : 10,
-        overflow: 'hidden'
+        overflow: 'hidden',
+        marginVertical: 10
     },
     mealRow: {
         flexDirection: 'row'
@@ -59,7 +60,7 @@ const styles = StyleSheet.create({
         paddingHorizontal: 12,
     },
     title: {
-        fontFamily: 'open-sans-bold',
+        // fontFamily: 'open-sans-bold',
         fontSize: 19, 
         color: 'white',
         textAlign: "center"
